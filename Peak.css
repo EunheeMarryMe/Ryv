@@ -1,0 +1,235 @@
+
+* {
+    margin:0 ;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+
+
+body{
+    background-color: rgb(24, 24, 24);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{text-transform: uppercase;
+text-shadow: 0px 0px 15px black;}
+
+header{
+    text-transform: uppercase;
+    font-style: normal; 
+    text-align: center ;
+    width: 100%;
+    height: 425px;
+    background-image: url(ganyu-and-keqing-genshin-impact-ea-1400x1050pp.jpg);
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+}
+
+header h1{
+    padding-top: 300px;
+    padding-bottom: 20px;
+    text-shadow: 0px 0px 30px black;
+}
+
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box ;
+
+}
+
+.navbar a{
+    color: white
+}
+
+.navbar .logo{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.navbar .navlink ul {
+    display: flex;
+}
+
+.navbar .navlink ul li {
+    margin: 0px 25px;
+}
+
+.navbar .menuh{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 35px;
+
+}
+
+
+
+@media screen and (max-width: 1050px) {
+    .navbar{
+        padding: 0px;
+    }
+    .navbar .logo{
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    .navlink ul{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+    .navbar .navlink ul li {
+        margin: 25px 0px;
+        font-size: 1,2cm;
+        z-index: 100;
+    }
+    .navlink{
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(128, 0, 128, 0.20);
+        backdrop-filter:calc(8px);
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100%;
+        transition: all 0.5s ease;
+    }
+
+    .navlink.mobile-menu{
+            margin-left: 0;
+        }
+
+
+    .navbar .menuh{
+        display: block;
+        top: 40px;
+        right: 40px;
+        width: 35px;
+    
+    }
+     
+}
+
+@media screen and (max-width: 500px){
+    .UU h2{
+        font-size: 20px;
+        padding-bottom: 5px;
+
+    }
+}
+
+
+
+.UU{
+    background-image: url(Etoile.jpg);
+    padding: 30px;
+}
+
+.UU h2{
+    padding-bottom: 30px;
+}
+.YT{
+    margin: 0 auto;
+    
+}
+
+.YT li{
+    display: inline-block;
+    text-align: center;
+    padding: 0px 10px;
+    list-style-type: none;
+}
+
+.YT video{
+    height: 150px;
+    width: 260px;
+    box-shadow: 0px 0px 25px rgb(3, 3, 54);
+    
+    }
+
+h2{text-align: center;
+    font-size: 30px;
+    
+}
+
+.LL{
+    background-image: url(FF\ 1500.jpeg);
+    background-size: cover;
+    padding: 30px;
+}
+
+.LL h2{
+    padding-bottom: 30px;
+}
+
+.LL .YT video{
+    box-shadow: 0px 0px 25px rgb(29, 153, 255);
+}
+
+.MM{
+    background-image: url(solo\ 1500.png);
+    background-size: cover;
+    padding: 30px;
+}
+
+.MM h2{
+    padding-bottom: 30px;
+}
+
+.MM .YT video{
+    box-shadow: 0px 0px 25px purple;
+    display: inline-block;
+    text-align: center;
+}
+
+.MM .YT img{
+    height: 150px;
+    width: auto;
+    padding: 10px 10px;
+    box-shadow: 0px 0px 15px black;
+    
+}
+
+
+.ZZ{
+    background-image: url(keqing-genshin-impact-devushka-ushki-voda-lotosy-noch-feierv.jpg);
+    background-size: cover;
+    padding: 30px;
+}
+
+.DD {
+    display: inline-block;
+}
+
+.DD .FRI {float: left;
+    text-align: left;
+    padding: 0px 10px;
+    
+}
+.DD .ERE{
+    float: right;
+    text-align: right;
+    padding: 0px 10px;
+}
+
+
+.DD img{
+    width: 200px;
+    height: 190px;
+    box-shadow: 0px 0px 15px black;
+}
+
